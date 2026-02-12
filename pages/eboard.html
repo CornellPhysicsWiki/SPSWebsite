@@ -1,0 +1,49 @@
+---
+layout: page
+title: E-Board
+permalink: /eboard/
+hide_title: true
+---
+
+<div class="page-header-box">
+  <h1 class="page-title">E-Board</h1>
+  <p class="section-subtitle">
+    Cornell University Society of Physics Students Spring 2025 E-Board
+  </p>
+</div>
+
+<div class="content-card">
+  <!-- Tabs -->
+  <div class="tabs" id="eboard-tabs">
+    <button class="tab-btn active" data-tab="admin">E-Board</button>
+    <button class="tab-btn" data-tab="alumni">E-Board Alumni</button>
+  </div>
+
+  <!-- People grid - loads from CSVs -->
+  <div class="people-grid" id="eboard-grid"
+       data-csv-admin="{{ '/assets/data/eboard.csv' | relative_url }}"
+       data-csv-alumni="{{ '/assets/data/alumni.csv' | relative_url }}">
+    <p style="text-align: center; color: #6b7280;">Loading...</p>
+  </div>
+</div>
+
+<!--
+  =============================================
+  HOW TO UPDATE E-BOARD:
+  =============================================
+  
+  E-Board officers:  assets/data/eboard.csv
+  Alumni:            assets/data/alumni.csv
+  
+  CSV columns:
+    name     - Full name of the person
+    linkedin - LinkedIn username (just the slug, not full URL)
+    title    - Their role/position  
+    image    - Photo filename (e.g., "jane-doe.jpg")
+               Photos live in assets/images/people/
+               Leave blank to auto-generate avatar from name.
+  
+  Example row:
+    Jane Doe,jane-doe,President,jane-doe.jpg
+  =============================================
+-->

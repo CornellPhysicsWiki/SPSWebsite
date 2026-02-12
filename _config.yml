@@ -1,0 +1,28 @@
+title: Cornell University Society of Physics Students
+description: >-
+  An undergraduate student organization committed to supporting the Cornell
+  University Physics community.
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+# CSV data lives in assets/data/
+# E-Board officers: assets/data/eboard.csv
+# Alumni:           assets/data/alumni.csv
+# Events:           assets/data/events.csv
+# Photos:           assets/images/people/

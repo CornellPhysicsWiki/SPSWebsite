@@ -1,0 +1,42 @@
+<!-- Fixed navbar -->
+<nav class="navbar" id="navbar">
+  <a href="{{ '/' | relative_url }}" class="nav-logo">
+    <img src="{{ '/assets/images/sps-logo.png' | relative_url }}" alt="SPS Logo" class="nav-logo-img">
+    <span class="nav-logo-text">Cornell SPS</span>
+    <img src="{{ '/assets/images/cornell-logo.png' | relative_url }}" alt="Cornell University" class="nav-cornell-img">
+  </a>
+
+  <!-- Desktop inline nav links -->
+  <div class="nav-links" id="nav-links">
+    <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+    <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
+    <a href="{{ '/resources/' | relative_url }}" class="nav-link">Resources</a>
+    <a href="{{ '/events/' | relative_url }}" class="nav-link">Events</a>
+    <a href="{{ '/eboard/' | relative_url }}" class="nav-link">E-Board</a>
+    <a href="{{ '/contact/' | relative_url }}" class="nav-link">Contact</a>
+    <a href="{{ '/wiki/' | relative_url }}" class="nav-link">SPS Wiki</a>
+  </div>
+
+  <!-- Mobile hamburger -->
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Sidebar overlay -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <nav class="sidebar-nav">
+    <a href="{{ '/' | relative_url }}" class="sidebar-link">Home</a>
+    <a href="{{ '/about/' | relative_url }}" class="sidebar-link">About</a>
+    <a href="{{ '/resources/' | relative_url }}" class="sidebar-link">Resources</a>
+    <a href="{{ '/events/' | relative_url }}" class="sidebar-link">Events</a>
+    <a href="{{ '/eboard/' | relative_url }}" class="sidebar-link">E-Board</a>
+    <a href="{{ '/contact/' | relative_url }}" class="sidebar-link">Contact</a>
+    <a href="{{ '/wiki/' | relative_url }}" class="sidebar-link">SPS Wiki</a>
+  </nav>
+</div>

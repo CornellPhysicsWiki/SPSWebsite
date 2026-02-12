@@ -1,0 +1,36 @@
+---
+layout: page
+title: Events
+permalink: /events/
+hide_title: true
+---
+
+<div class="page-header-box">
+  <h1 class="page-title">Events</h1>
+  <p class="section-subtitle">
+    Talks, social events, outreach activities, and more throughout the academic year
+  </p>
+</div>
+
+<div class="content-card">
+  <!-- Tab Toggle -->
+  <div class="event-tabs" id="event-tabs">
+    <button class="event-tab-btn active" data-status="upcoming">Upcoming Events</button>
+    <button class="event-tab-btn" data-status="past">Previous Events</button>
+  </div>
+
+  <!-- Event Cards - loads from CSV -->
+  <div class="event-cards" id="event-cards"
+       data-csv="{{ '/assets/data/events.csv' | relative_url }}">
+    <p style="text-align: center; color: #6b7280;">Loading events...</p>
+  </div>
+
+  <!-- Empty state message -->
+  <p class="event-empty" id="event-empty" style="display: none;">
+    No events to show in this category yet. Check back soon!
+  </p>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="https://forms.gle/TPY8feDT6bxYrjhW6" class="btn btn-primary" target="_blank" rel="noopener">Join the Listserv for Updates</a>
+  </div>
+</div>
