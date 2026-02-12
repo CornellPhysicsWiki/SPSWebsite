@@ -53,9 +53,12 @@ function initNavbar() {
   }, { passive: true });
 }
 
+// --- Site base URL (set by Jekyll in default.html) ---
+const BASE_URL = (window.__baseurl || '').replace(/\/+$/, '');
+
 // --- E-Board: CSV-powered people grid with tabs ---
 // Images are always resolved from /assets/images/people/
-const PEOPLE_IMAGE_BASE = '/assets/images/people/';
+const PEOPLE_IMAGE_BASE = BASE_URL + '/assets/images/people/';
 
 function initEboard() {
   const container = document.getElementById('eboard-grid');
@@ -300,8 +303,9 @@ function initEvents() {
     }
 
     cardsContainer.innerHTML = filtered.map(event => {
+      const eventImgSrc = event.image.startsWith('/') ? BASE_URL + event.image : event.image;
       const imageHtml = event.image
-        ? `<div class="event-card-image"><img src="${event.image}" alt="${event.title}" loading="lazy"></div>`
+        ? `<div class="event-card-image"><img src="${eventImgSrc}" alt="${event.title}" loading="lazy"></div>`
         : `<div class="event-card-image event-card-image--placeholder">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
