@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Cornell SPS Logo  static default pose (� = 0) -->
+  <!-- Background circle for visibility on dark/light tabs -->
+  <circle cx="250" cy="250" r="248" fill="#fff"/>
+  <!-- Four rings: offset horizontally (OFFSET_K = 0.5, � = 0) -->
+  <circle cx="250"   cy="250" r="215" fill="none" stroke="#1ECBE1" stroke-width="12"/>
+  <circle cx="272.5" cy="250" r="170" fill="none" stroke="#1ECBE1" stroke-width="12"/>
+  <circle cx="294"   cy="250" r="127" fill="none" stroke="#1ECBE1" stroke-width="12"/>
+  <circle cx="315"   cy="250" r="85"  fill="none" stroke="#1ECBE1" stroke-width="12"/>
+  <!-- SPS text at innermost ring centre -->
+  <text x="315" y="250"
+        text-anchor="middle" dominant-baseline="central"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-weight="bold" font-size="56"
+        fill="#1a2a3a" letter-spacing="3">SPS</text>
+</svg>
