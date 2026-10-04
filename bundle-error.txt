@@ -1,0 +1,299 @@
+Bundler 4.0.22 is running, but your lockfile was generated with 2.6.9. Installing Bundler 2.6.9 and restarting using that version.
+Fetching gem metadata from https://rubygems.org/.
+There was an error installing the locked bundler version (2.6.9), rerun with the `--verbose` flag for more details. Going on using bundler 4.0.22.
+Fetching gem metadata from https://rubygems.org/..........
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing rake (13.3.1), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      jekyll-sass-converter was resolved to 3.1.0, which depends on
+        sass-embedded was resolved to 1.97.3, which depends on
+          google-protobuf was resolved to 4.33.5, which depends on
+            rake
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing public_suffix (7.0.2), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      addressable was resolved to 2.8.8, which depends on
+        public_suffix
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing addressable (2.8.8), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      addressable
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing base64 (0.3.0), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      base64
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing bigdecimal (4.0.1), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      jekyll-sass-converter was resolved to 3.1.0, which depends on
+        sass-embedded was resolved to 1.97.3, which depends on
+          google-protobuf was resolved to 4.33.5, which depends on
+            bigdecimal
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing colorator (1.1.0), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      colorator
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing concurrent-ruby (1.3.6), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      i18n was resolved to 1.14.8, which depends on
+        concurrent-ruby
+
+
+Bundler::PermissionError: There was an error while trying to write to `/usr/lib/ruby/gems/3.4.0/cache`.
+It is likely that you need to grant write permissions for that path.
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/shared_helpers.rb:110:in
+'Bundler::SharedHelpers#filesystem_access'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:476:in
+'Bundler::Source::Rubygems#fetch_gem'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:463:in
+'Bundler::Source::Rubygems#fetch_gem_if_possible'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:585:in
+'Bundler::Source::Rubygems#rubygems_gem_installer'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/source/rubygems.rb:185:in
+'Bundler::Source::Rubygems#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/gem_installer.rb:29:in
+'Bundler::GemInstaller#download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:193:in
+'Bundler::ParallelInstaller#do_download'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/installer/parallel_installer.rb:177:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:70:in
+'Bundler::Worker#apply_func'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:65:in 'block
+in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:56:in
+'Bundler::Worker#process_queue'
+/home/zhav0ronok/.local/share/gem/ruby/3.4.0/gems/bundler-4.0.22/lib/bundler/worker.rb:98:in 'block
+(2 levels) in Bundler::Worker#create_threads'
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue.
+
+In Gemfile:
+  jekyll-feed was resolved to 0.17.0, which depends on
+    jekyll was resolved to 4.4.1, which depends on
+      em-websocket was resolved to 0.5.3, which depends on
+        eventmachine
