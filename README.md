@@ -1,6 +1,6 @@
 # Cornell SPS Website
 
-The official website for the Cornell University Society of Physics Students, built by Austin Wu with Jekyll.
+The official website for the Cornell University Society of Physics Students, built by Austin Wu with Jekyll, currently maintained by Madeline Jennings.
 
 ## Quick Start
 
@@ -36,4 +36,3 @@ Edit `assets/data/events.csv` with columns: `date`, `title`, `description`, `lin
 
 All pages are in the `pages/` directory and use simple HTML with Jekyll front matter.
 
-### Wiki
