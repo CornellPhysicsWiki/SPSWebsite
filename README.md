@@ -1,6 +1,6 @@
 # Cornell SPS Website
 
-The official website for the Cornell University Society of Physics Students, built by Austin Wu with Jekyll, currently maintained by Madeline Jennings.
+The official website for the Cornell University Society of Physics Students, built by Austin Wu with Jekyll.
 
 ## Quick Start
 
